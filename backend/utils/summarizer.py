@@ -1,7 +1,6 @@
 import nltk
 from nltk.tokenize import sent_tokenize
 
-# Ensure the punkt resource is available
 nltk.download('all')
 
 
