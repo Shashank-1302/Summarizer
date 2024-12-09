@@ -2,9 +2,8 @@ import nltk
 from nltk.tokenize import sent_tokenize
 
 # Ensure the punkt resource is available
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+nltk.download('all')
+
 
 def summarize_text(text, num_sentences=3):
     try:
